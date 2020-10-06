@@ -1,0 +1,46 @@
+{% extends 'frontend/base.html' %}
+{% block title%} Contact {% endblock %}
+{% block content %}
+{% load static %}
+
+
+<div class="jumbotron">
+    <h1 class="display-3"> Contact </h1>
+    <hr class="my-4">
+    <div>
+        <img src="{% static "images/icon-phone.png" %}" width="80">
+        <font size="6" align="center"> : 091-xxx-xxxx </font>
+        <hr class="my-3">
+    </div>
+
+    <div>
+        <img src="{% static "images/icon-gmail.png" %}" width="80">
+        <font size="6" align="center"> : EatPizza@gmail.com </font>
+        <hr class="my-3">
+    </div>
+
+    <div>
+        <img src="{% static "images/icon-facebook.png" %}" width="80">
+        <font size="6" align="center"> : EatPizza.Facebook </font>
+        <hr class="my-3">
+    </div>
+
+    <div>
+        <img src="{% static "images/icon-instagram.png" %}" width="80">
+        <font size="6" align="center"> : EatPizza.Istagram </font>
+        <hr class="my-3">
+    </div>
+
+    <div>
+        <img src="{% static "images/icon-line.png" %}" width="80">
+        <font size="6" align="center"> : EatPizza.Line </font>
+        <hr class="my-3">
+    </div>
+
+    <div>
+        <img src="{% static "images/icon-twitter.png" %}" width="80">
+        <font size="6" align="center"> : EatPizza.Twitter </font>
+        <hr class="my-3">
+    </div>
+</div>
+{% endblock %}
